@@ -1,0 +1,100 @@
+[2023-02-04 15:52:27] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /var/www/html/DACN-CNTT/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-02-04 15:52:30] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-02-04 15:52:30] production.ERROR: Uncaught ReflectionException: Class translator does not exist in /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class translator does not exist in /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\\Container\\Container->build()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\\Container\\Container->resolve()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\\Container\\Container->make()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\\Foundation\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790)
+[stacktrace]
+#0 {main}
+"} 
+[2023-02-04 15:52:30] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-02-04 15:52:30] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-02-04 15:52:30] production.ERROR: Uncaught ReflectionException: Class view does not exist in /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class view does not exist in /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct()
+#1 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\\Container\\Container->build()
+#2 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\\Container\\Container->resolve()
+#3 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\\Container\\Container->make()
+#4 /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\\Foundation\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at /var/www/html/DACN-CNTT/vendor/laravel/framework/src/Illuminate/Container/Container.php:790)
+[stacktrace]
+#0 {main}
+"} 
